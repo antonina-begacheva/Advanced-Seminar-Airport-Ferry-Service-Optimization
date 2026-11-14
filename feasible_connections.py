@@ -1,7 +1,7 @@
 
 import pandas as pd
 
-flights = pd.read_csv("synthetic_flights.csv")
+flights = pd.read_csv("data/synthetic_flights.csv")
 travel = pd.read_csv("data/flight_travel_times.csv")
 
 feasible_connections = []

@@ -10,7 +10,7 @@ rng = np.random.default_rng(123)
 data_folder = Path("data")
 data_folder.mkdir(exist_ok=True)
 
-flights = pd.read_csv("synthetic_flights.csv")
+flights = pd.read_csv("data/synthetic_flights.csv")
 
 # Collect all unique airport locations
 locations = sorted(
